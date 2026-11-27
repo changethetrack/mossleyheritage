@@ -62,6 +62,7 @@ scheme: home
     <div class="layout__text-bottom">
       <p>The society, first established in 1966, is passionate about Mossley and promoting local history and alongside many local activities runs the Mossley Heritage Centre.</p>
       <p><a href="{{ '/civic-society' | relative_url }}" class="btn btn--1">Mossley Civic Society</a></p>
+      <p><a href="{{ '/memories' | relative_url }}" class="btn btn--1">Share your Mossley memories</a></p>
     </div>
   </div>
 </section>
