@@ -16,6 +16,21 @@ scheme: home
 </section>
 
 <div class="textured">
+  <section class="section section--thick" aria-labelledby="memories-feature-title">
+    <div class="layout layout--intro">
+      <h2 class="layout__title" id="memories-feature-title">What do you remember about Mossley?</h2>
+      <div class="layout__text-top">
+        <p class="bigger--on-portrait">A favourite shop, a school memory, an old photograph or a family story. Help us build Mossley’s digital archive by sharing what you remember.</p>
+        <p><a class="btn btn--2" href="{{ '/memories' | relative_url }}">Share a memory</a></p>
+      </div>
+      <div class="layout__image">
+        <img src="{{ '/images/timeline/1945_Micklehurst+station@2x.jpg' | relative_url }}" alt="Historic photograph of Micklehurst station" loading="lazy">
+      </div>
+    </div>
+  </section>
+</div>
+
+<div class="textured">
   <section class="section">
     <div class="layout layout--switch-left layout--index-trails">
       <div class="layout__text-top">
@@ -62,7 +77,6 @@ scheme: home
     <div class="layout__text-bottom">
       <p>The society, first established in 1966, is passionate about Mossley and promoting local history and alongside many local activities runs the Mossley Heritage Centre.</p>
       <p><a href="{{ '/civic-society' | relative_url }}" class="btn btn--1">Mossley Civic Society</a></p>
-      <p><a href="{{ '/memories' | relative_url }}" class="btn btn--1">Share your Mossley memories</a></p>
     </div>
   </div>
 </section>
