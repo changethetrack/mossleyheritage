@@ -33,7 +33,7 @@
 
     <ul class="reset">
       {% for item in site.data.menu %}
-      <li><a href="/{{ item.url }}">{{ item.name }}</a></li>
+      <li><a href="{{ '/' | append: item.url | relative_url }}">{{ item.name }}</a></li>
       {% endfor %}
     </ul>
   </div>
@@ -42,8 +42,8 @@
     <h5>Legal</h5>
 
     <ul class="reset">
-      <li><a href="/privacy">Privacy policy</a></li>
-      <li><a href="/disclaimer">Trail disclaimer</a></li>
+      <li><a href="{{ '/privacy' | relative_url }}">Privacy policy</a></li>
+      <li><a href="{{ '/disclaimer' | relative_url }}">Trail disclaimer</a></li>
     </ul>
   </div>
 

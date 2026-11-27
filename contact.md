@@ -5,7 +5,7 @@ title: Contact us
 <section class="section section--no-bottom">
     <div class="contact-header">
       <h1 class="no-udl">If you’d like to contact us about any aspect of Mossley Heritage, we would love to hear from you.</h1>
-      <img src="/images/contact/MH_Getintouch@2x.jpg" alt="A illustration of Longlands Mill">
+      <img src="{{ '/images/contact/MH_Getintouch@2x.jpg' | relative_url }}" alt="A illustration of Longlands Mill">
     </div>
 </section>
 
@@ -38,5 +38,5 @@ OL5 9AH
 {:.reset .opening-times}
 </div>
 <div class="contact-options__block contact__image-footer">
-<img src="/images/contact/MH_Getintouch@2x.jpg" alt="An illustration of a chimney in Mossley">
+<img src="{{ '/images/contact/MH_Getintouch@2x.jpg' | relative_url }}" alt="An illustration of a chimney in Mossley">
 </div>

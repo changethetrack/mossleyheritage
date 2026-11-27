@@ -9,12 +9,12 @@ layout: default
   <h1 class="no-udl">{{ trail.title }}</h1>
   <hr>
   <div class="trail__logos">
-    <img src="/images/animals/{{ trail.image }}" alt="An image of {{ trail.animal }}">
-    <img src="/images/schools/{{ trail.school_logo }}" alt="{{ trail.school }}'s logo">
+    <img src="{{ '/images/animals/' | append: trail.image | relative_url }}" alt="An image of {{ trail.animal }}">
+    <img src="{{ '/images/schools/' | append: trail.school_logo | relative_url }}" alt="{{ trail.school }}'s logo">
   </div>
   <div class="trail__content">
     {{ content }}
-    <p><a href="/downloads/mossley-heritage-trail-quiz.pdf" class="btn btn--1">
+    <p><a href="{{ '/downloads/mossley-heritage-trail-quiz.pdf' | relative_url }}" class="btn btn--1">
       Download our trail quiz!
     </a></p>
   </div>
@@ -33,7 +33,7 @@ layout: default
         <div class="stop__year">{{ stop.year }}</div>
         <div class="stop__teaser">
           {{ stop.teaser }}
-          <p><a class="stop__link btn" href="{{ stop.url }}">Read the rest</a></p>
+          <p><a class="stop__link btn" href="{{ stop.url | relative_url }}">Read the rest</a></p>
         </div>
       </div>
 

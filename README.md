@@ -1,6 +1,6 @@
 # Mossley Heritage Society's website
 
-This site is build with jekyll and can be viewed at https://mossleyheritage.org/
+This site is build with jekyll and can be viewed at https://changethetrack.github.io/mossleyheritage/
 
 ## Requirements
 
@@ -30,4 +30,4 @@ bundle exec rake test
 
 ## Deployment
 
-Deployment happens automatically from the `master` branch. Current production site is https://mossleyheritage.org/
+Deployment happens automatically from the `master` branch. Current preview is https://changethetrack.github.io/mossleyheritage/

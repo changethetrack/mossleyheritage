@@ -6,10 +6,10 @@
     {% for trail in site.data.trails %}
       {% if trail.id != include.exclude %}
       <li>
-        <h3><a href="/trails/{{ trail.id }}">{{ trail.title }}</a></h3>
-        <img src="/images/animals/{{ trail.image }}">
+        <h3><a href="{{ '/trails/' | append: trail.id | relative_url }}">{{ trail.title }}</a></h3>
+        <img src="{{ '/images/animals/' | append: trail.image | relative_url }}">
         <p>{{ trail.description }}</p>
-        <a class="btn btn--2" href="/trails/{{ trail.id }}">See the trail</a>
+        <a class="btn btn--2" href="{{ '/trails/' | append: trail.id | relative_url }}">See the trail</a>
       </li>
       {% endif %}
     {% endfor %}

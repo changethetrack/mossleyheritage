@@ -7,7 +7,7 @@ title: Mossley Civic Society
 # Mossley Civic Society
 {:.no-underline-phone}
 
-![A photo of Mossley Civic Society](/images/civic-society/MH_CivicSociety_1_Intro@2x.jpg)
+![A photo of Mossley Civic Society]({{ '/images/civic-society/MH_CivicSociety_1_Intro@2x.jpg' | relative_url }})
 {:.layout__image}
 
 In 1966, a year best known for England winning the World Cup, a group of stalwart citizens were so proud of their small town of Mossley that they determined to create an organisation which would observe, debate and aim to protect and celebrate the heritage of their community.
@@ -24,7 +24,7 @@ And so the Mossley Civic Society was born.
 ## What do we do?
 {:.no-underline-phone .narrowish}
 
-![A photo of a talk at the centre](/images/civic-society/MH_CivicSociety_2_Whatdowedo@2x.jpg)
+![A photo of a talk at the centre]({{ '/images/civic-society/MH_CivicSociety_2_Whatdowedo@2x.jpg' | relative_url }})
 {:.layout__image .narrowish}
 
 To celebrate our local heritage we share, listen, talk, display, present, teach, perform, write, collect, organise, stimulate, participate, explore and investigate.
@@ -41,7 +41,7 @@ We do whatever we can to keep Mossley Heritage in the collective consciousness o
 ## Who is in the Society?
 {:.no-underline-phone .narrowish}
 
-![A photo of some of the Civic Society members](/images/civic-society/MH_CivicSociety_3_Who@2x.jpg)
+![A photo of some of the Civic Society members]({{ '/images/civic-society/MH_CivicSociety_3_Who@2x.jpg' | relative_url }})
 {:.layout__image}
 
 All of this work has been done by a small group of local volunteers, some of who have been members for decades.
@@ -82,7 +82,7 @@ The committee consists of up to 14 members while the whole group numbers between
 Civic Society members can volunteer for the Heritage Centre rota, provide support during special events, link with school and community groups, offer specialist advice, attend presentations or simply be on our mailing list to support our projects.
 {:.narrowish}
 
-![Some illustrations of the area](/images/civic-society/MH_CivicSociety_4_Volunteer@2x.png)
+![Some illustrations of the area]({{ '/images/civic-society/MH_CivicSociety_4_Volunteer@2x.png' | relative_url }})
 {:.layout__image}
 
 Contact Dyllis on 01457 837 287 or fill in our volunteering form below if you want to get involved.
@@ -98,7 +98,7 @@ Contact Dyllis on 01457 837 287 or fill in our volunteering form below if you wa
 ## Enjoy our events that celebrate Mossley
 {:.no-underline-phone .narrowish}
 
-![A photograph taken at our Extraordinary Women event](/images/civic-society/MH_CivicSociety_5_Enjoy@2x.jpg)
+![A photograph taken at our Extraordinary Women event]({{ '/images/civic-society/MH_CivicSociety_5_Enjoy@2x.jpg' | relative_url }})
 {:.layout__image}
 
 Photograph taken at our Extraordinary Women event.

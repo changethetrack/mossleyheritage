@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.0.0/mapbox-gl.js'></script>
     <link href="https://fonts.googleapis.com/css?family=Inknut+Antiqua:500|Work+Sans:400,600&display=swap" rel="stylesheet">
-    <link href="/css/styles.css" rel="stylesheet">
+    <link href="{{ '/css/styles.css' | relative_url }}" rel="stylesheet">
     {% if page.title %}
       <title>{{ page.title }} | Mossley Heritage</title>
     {% else %}
@@ -20,7 +20,7 @@
       <div class="header__branding">
         <div class="section section--no-space">
           <h2>Mossley Heritage</h2>
-          <a href="/" class="header__home-link">
+          <a href="{{ '/' | relative_url }}" class="header__home-link">
             {% include logos/MH_logo.svg %}
           </a>
           <button class="reset header__toggle" id="js--navigation__toggle">
@@ -55,7 +55,7 @@
       {% if page.layout == 'trail' or page.layout == 'stop' %}
         <div class="filled">
           <section class="section section--trail-header">
-            <img src="/images/trails/MH_Trail_Banner_Transp@2x.png" alt="Mossley Heritage Trails">
+            <img src="{{ '/images/trails/MH_Trail_Banner_Transp@2x.png' | relative_url }}" alt="Mossley Heritage Trails">
           </section>
         </div>
       {% endif %}
@@ -64,6 +64,6 @@
     <footer class="footer">
       {% include footer.html %}
     </footer>
-    <!-- <script src="/js/main.js"></script> -->
+    <!-- <script src="{{ '/js/main.js' | relative_url }}"></script> -->
   </body>
 </html>
