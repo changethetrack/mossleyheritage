@@ -1,6 +1,6 @@
 # Mossley Heritage Society's website
 
-This site is build with jekyll and can be viewed at https://changethetrack.github.io/mossleyheritage/
+This site is built with Jekyll and published with GitHub Pages.
 
 ## Requirements
 
@@ -30,4 +30,4 @@ bundle exec rake test
 
 ## Deployment
 
-Deployment happens automatically from the `master` branch. Current preview is https://changethetrack.github.io/mossleyheritage/
+Deployment happens automatically from the `master` branch. GitHub Pages sets the site URL and base path from its publishing settings. The [Pages settings](https://github.com/changethetrack/mossleyheritage/settings/pages) show the current public address.
