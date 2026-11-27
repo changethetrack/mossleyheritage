@@ -1,0 +1,59 @@
+---
+layout: default
+title: Share your Mossley memories
+description: Share a memory of Mossley, offer a photograph or item, or tell us you’d like a recorded chat for the new digital archive.
+permalink: /memories
+---
+<section class="section">
+  <div class="memories">
+    <h1>Share your Mossley memories</h1>
+    <p>Mossley Civic Society is collecting stories, photographs and recordings for the Heritage Centre’s new digital archive. Whether you grew up here or came to Mossley later, we’d love to hear from you.</p>
+
+    <form class="memories-form" action="https://formspree.io/f/xppdeaaa" method="post">
+      <div class="memories-form__field">
+        <label for="memories-topic">How would you like to get involved?</label>
+        <select id="memories-topic" name="topic" required>
+          <option value="">Choose an option</option>
+          <option value="Share a memory">Share a memory</option>
+          <option value="Offer a photo or item">Offer a photo or item</option>
+          <option value="Arrange a recorded chat">Arrange a recorded chat</option>
+          <option value="Ask a question">Ask a question</option>
+        </select>
+      </div>
+
+      <div class="memories-form__field">
+        <label for="memories-message">What would you like to tell us?</label>
+        <p id="memories-message-help">A few lines is plenty. If you’re sharing a memory, tell us where and roughly when it happened if you remember. If you have a photo, letter or item, you can describe it here. If you’d prefer a chat, just let us know.</p>
+        <textarea id="memories-message" name="message" rows="6" aria-describedby="memories-message-help" required></textarea>
+      </div>
+
+      <div class="memories-form__field">
+        <label for="memories-name">Your name (optional)</label>
+        <input id="memories-name" name="name" type="text" autocomplete="name">
+      </div>
+
+      <div class="memories-form__field">
+        <label for="memories-contact">Email address or phone number</label>
+        <p id="memories-contact-help">Please leave one if you’d like a reply or want to arrange a recorded chat.</p>
+        <input id="memories-contact" name="contact" type="text" aria-describedby="memories-contact-help">
+      </div>
+
+      <p>We’ll ask your permission before including your contribution in the digital archive.</p>
+      <button type="submit">Send to Mossley Heritage</button>
+    </form>
+
+    <p>You’re also welcome to <a href="{{ '/visit' | relative_url }}">visit the Heritage Centre</a> to share a memory or show us a photograph or item in person.</p>
+  </div>
+</section>
+
+<script>
+  const memoriesTopic = document.getElementById('memories-topic');
+  const memoriesContact = document.getElementById('memories-contact');
+
+  function updateMemoriesContactRequirement() {
+    memoriesContact.required = memoriesTopic.value === 'Arrange a recorded chat';
+  }
+
+  memoriesTopic.addEventListener('change', updateMemoriesContactRequirement);
+  window.addEventListener('pageshow', updateMemoriesContactRequirement);
+</script>
