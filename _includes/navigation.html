@@ -3,11 +3,11 @@
     {% for item in site.data.menu %}
       {% unless item.url contains 'civic-society' %}
         {% if item.url == null and page.url == '/' %}
-          <li class="active"><a href="/{{ item.url }}">{{ item.name }}</a></li>
+          <li class="active"><a href="{{ '/' | append: item.url | relative_url }}">{{ item.name }}</a></li>
         {% elsif page.url contains item.url %}
-          <li class="active"><a href="/{{ item.url }}">{{ item.name }}</a></li>
+          <li class="active"><a href="{{ '/' | append: item.url | relative_url }}">{{ item.name }}</a></li>
         {% else %}
-          <li><a href="/{{ item.url }}">{{ item.name }}</a></li>
+          <li><a href="{{ '/' | append: item.url | relative_url }}">{{ item.name }}</a></li>
         {% endif %}
       {% endunless %}
     {% endfor %}

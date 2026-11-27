@@ -8,7 +8,7 @@ scheme: visit
 # Mossley Heritage Centre takes up a corner of Longlands Mill, and is dedicated to celebrating our incredible hilly milly history.
 {:.no-underline-phone}
 
-![A photo of the centre](/images/visit/MH_HeritageCentre_Exterior@2x.jpg)
+![A photo of the centre]({{ '/images/visit/MH_HeritageCentre_Exterior@2x.jpg' | relative_url }})
 {:.layout__image}
 
 The centre is occupied by a massive baling machine, artefacts, archives, memorabilia, maps, books by local historians, furniture, photographic collections, a schoolroom, kitchen and living area.
@@ -25,7 +25,7 @@ The centre is occupied by a massive baling machine, artefacts, archives, memorab
 The centre is located at Longlands Mill, Mossley, Queen Street, OL5 9AH.
 {:.narrow .bigger--on-portrait}
 
-![Map showing how to get to the centre](/images/visit/MH_HeritageCentre_Map@2x.png)
+![Map showing how to get to the centre]({{ '/images/visit/MH_HeritageCentre_Map@2x.png' | relative_url }})
 {:.visit--map}
 
 Queen Street is opposite Mossley railway station. The heritage centre is in the corner of the Emmaus courtyard at the far end of the car park.
@@ -57,7 +57,7 @@ Admittance is free.
 ## Uncover the hidden stories of Mossley
 {:.no-underline-phone}
 
-![A visitor browsing the centre](/images/visit/MH_HeritageCentre_Uncover1@2x.jpg)
+![A visitor browsing the centre]({{ '/images/visit/MH_HeritageCentre_Uncover1@2x.jpg' | relative_url }})
 {:.layout__image}
 
 Did you know that there was a murder in the cinema and an attempted bank robbery in Mossley?
@@ -68,7 +68,7 @@ Did you know that there was a murder in the cinema and an attempted bank robbery
 
 <section class="section">
 <div class="layout--image-left" markdown="1">
-![More visitors browsing the centre](/images/visit/MH_HeritageCentre_Uncover2@2x.jpg)
+![More visitors browsing the centre]({{ '/images/visit/MH_HeritageCentre_Uncover2@2x.jpg' | relative_url }})
 {:.layout__image}
 <br><br>
 Learn the weird and wonderful stories of people trading jars of wee for cloth and the men who were dressed as shepherds but didn’t own any sheep!
@@ -106,14 +106,14 @@ Learn the weird and wonderful stories of people trading jars of wee for cloth an
       <p class="bigger">The centre is run by Mossley Civic Society volunteers – come and join us!</p>
     </div>
     <div class="layout__image">
-      <img src="/images/visit/MH_HeritageCentre_Getinvolved@2x.jpg" alt="Illustration of Mossley">
+      <img src="{{ '/images/visit/MH_HeritageCentre_Getinvolved@2x.jpg' | relative_url }}" alt="Illustration of Mossley">
     </div>
     <div class="layout__text-bottom">
       <p>You don’t need to be an expert on local history, you just need to have an interest in Mossley and its heritage.</p>
       <p>Contact us at the heritage centre or on 01457 837 287 if you can spare any time (even an hour or two a month helps).</p>
       <p>
-        <a href="/contact" class="btn btn--1">Get in touch</a>
-        <a href="/civic-society" class="btn btn--2">Mossley Civic Society</a>
+        <a href="{{ '/contact' | relative_url }}" class="btn btn--1">Get in touch</a>
+        <a href="{{ '/civic-society' | relative_url }}" class="btn btn--2">Mossley Civic Society</a>
       </p>
     </div>
   </div>

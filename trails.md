@@ -7,7 +7,7 @@ scheme: trail
   <div class="layout layout--intro layout--image-overflow layout--trails-intro">
     <h1 class="layout__title">Take a walk through history on one of our heritage trails!</h1>
     <div class="layout__image">
-      <img class="trails-top" src="/images/home/MH_TrailsPosters_@2x.png" alt="An illustration of Mossley">
+      <img class="trails-top" src="{{ '/images/home/MH_TrailsPosters_@2x.png' | relative_url }}" alt="An illustration of Mossley">
     </div>
     <div class="layout__text-top">
       <p class="bigger--on-portrait">Our fabulous trail boards popped up all over Mossley in 2018 to celebrate and highlight the fantastic history right around us.</p>
@@ -66,7 +66,7 @@ Want to bring a school group? We deliver Mossley trail and heritage workshops fo
 A team of 134 project workers with ages ranging from 8–84 (powered by a shared enthusiasm for heritage) trawled the internet, read local books, studied old photos, mined the memories of relatives and explored the archives at the heritage centre to ensure that the trails bring the Mossley of the past to life.
 {:.bigger--on-portrait}
 
-![Photograph of a trail board](/images/trails/MH_Trails_photo_of_boards_treated.jpg){:.space-top}
+![Photograph of a trail board]({{ '/images/trails/MH_Trails_photo_of_boards_treated.jpg' | relative_url }}){:.space-top}
 {:.layout__image}
 
 <div markdown="1">
@@ -76,8 +76,8 @@ Volunteers worked alongside Green Monster Arts and pupils from all five Mossley 
 The project was grant funded by the National Lottery Heritage Fund.
 
 <ul class="reset supporters">
-  <li><img src="/images/trails/HeritageFund.svg" alt="Heritage Lottery Fund logo"></li>
-  <li><img src="/images/trails/MH_GreenMonsterArts@2x.png" alt="Green Monster Arts logo"></li>
+  <li><img src="{{ '/images/trails/HeritageFund.svg' | relative_url }}" alt="Heritage Lottery Fund logo"></li>
+  <li><img src="{{ '/images/trails/MH_GreenMonsterArts@2x.png' | relative_url }}" alt="Green Monster Arts logo"></li>
 </ul>
 
 <a class="btn btn--1" href="#select-a-trail">Select a trail</a>
@@ -93,9 +93,9 @@ The project was grant funded by the National Lottery Heritage Fund.
 We have a few older trails which can be downloaded below as printable PDF files.
 {:.narrow .narrow--centered}
 
-- [Upper Mossley Trail](/downloads/local-interest-trail-upper-mossley.pdf)
-- [Brookbottom & Roughtown Trail](/downloads/local-interest-trail-brookbottom-roughtown.pdf)
-- [Mossley Blue Plaque Trail](/downloads/mossley-blue-plaque-trail.pdf)
+- [Upper Mossley Trail]({{ '/downloads/local-interest-trail-upper-mossley.pdf' | relative_url }})
+- [Brookbottom & Roughtown Trail]({{ '/downloads/local-interest-trail-brookbottom-roughtown.pdf' | relative_url }})
+- [Mossley Blue Plaque Trail]({{ '/downloads/mossley-blue-plaque-trail.pdf' | relative_url }})
 {:.btn .btn--3 .reset .space}
 </section>
 </div>

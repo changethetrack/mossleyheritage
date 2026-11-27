@@ -15,6 +15,6 @@ Cobbled streets, unadopted roads, potentially slippery stone paths, bridges, pot
 
 While following the trails using a map or a phone, care should always be taken that you look where you are going, we accept no responsibility for any accident that results from you being unaware of your surroundings.
 
-[Back to trails](/trails){:.btn .btn--1}
+[Back to trails]({{ '/trails' | relative_url }}){:.btn .btn--1}
 
 _Last updated 20/06/19_

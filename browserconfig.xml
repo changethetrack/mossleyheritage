@@ -1,8 +1,10 @@
+---
+---
 <?xml version="1.0" encoding="utf-8"?>
 <browserconfig>
     <msapplication>
         <tile>
-            <square310x310logo src="/mstile-310x310.png"/>
+            <square310x310logo src="{{ '/mstile-310x310.png' | relative_url }}"/>
             <TileColor>#A3D7DF</TileColor>
         </tile>
     </msapplication>

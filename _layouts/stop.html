@@ -1,6 +1,8 @@
 ---
 layout: default
 ---
+{% assign trail_path = page.url | split: '/stops/' | first %}
+
 <h1 class="stop-page__title">{{ page.trail_name }} &mdash; Stop {{ page.slug }}</h1>
 
 <section class="section">
@@ -11,11 +13,11 @@ layout: default
     <hr>
     <nav aria-label="Blog navigation">
       {% if page.previous %}
-        <a href="{{ page.previous.url }}" class="btn btn--3">Last stop</a>
+        <a href="{{ page.previous.url | relative_url }}" class="btn btn--3">Last stop</a>
       {% endif %}
-      <a href="../" class="btn btn--3">Trail home</a>
+      <a href="{{ trail_path | relative_url }}" class="btn btn--3">Trail home</a>
       {% if page.next %}
-        <a href="{{ page.next.url }}" class="btn btn--3">Next stop</a>
+        <a href="{{ page.next.url | relative_url }}" class="btn btn--3">Next stop</a>
       {% endif %}
     </nav>
   </div>
